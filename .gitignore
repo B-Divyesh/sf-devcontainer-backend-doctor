@@ -1,5 +1,8 @@
-node_modules/
-dist/
+/node_modules/
+/target/
+/dist/
+/test-results/
+/.factory/assets/
 .env
 *.log
 graphify-out/

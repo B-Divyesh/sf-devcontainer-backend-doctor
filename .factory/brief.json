@@ -1,0 +1,9 @@
+{
+  "slug": "devcontainer-backend-doctor",
+  "title": "Devcontainer Backend Doctor",
+  "artifact_class": "cli",
+  "user": "Mac-based teams changing between Docker Desktop, Podman, OrbStack, and Apple Container who need to know whether a devcontainer/Compose project will actually work before changing runtime.",
+  "smallest_useful_product": "A CLI that statically inspects devcontainer.json and Compose, probes a selected local backend, and reports incompatibilities for mounts, privileged mode, networking, architecture, GPU, and secrets.",
+  "monetization": "free",
+  "constraints": "No daemon mutation by default; never print secret values; backend probes must be opt-in and platform-version aware."
+}
