@@ -1,0 +1,10 @@
+[workspace]
+members = ["crates/devcontainer-backend-doctor"]
+resolver = "2"
+
+[workspace.package]
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/B-Divyesh/sf-devcontainer-backend-doctor"
+rust-version = "1.85"
+
