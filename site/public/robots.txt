@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://devcontainer-backend-doctor.sociobot.in/sitemap.xml
