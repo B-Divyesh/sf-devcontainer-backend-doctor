@@ -1,5 +1,11 @@
 # Devcontainer Backend Doctor — v0.1.0 handoff
 
+## Independent verification status — PASS (2026-08-28)
+
+Candidate `f6d149a0e64a956cf8106b70cf38fee88d1f5cc3` was independently tested from a clean detached checkout and against <https://devcontainer-backend-doctor.sociobot.in/>. **PASS — no Critical, High, Medium, or Low defects found.**
+
+Fresh verification passed `npm ci`, `npm test`, `npm run check`, the exact production command `npm run build`, Playwright desktop and 390 px mobile tests, `cargo package`, clean-consumer installation, and the live website's documented `cargo install --git` command. The production HTML and hashed JS are byte-identical to the candidate build; live axe had 0 serious/critical findings, console/page errors were 0, offline service-worker reload passed, Lighthouse scored 100/100/100/100, and first-load transfer was 58 KiB. Full commands, exit-code fixtures, privacy/request/header checks, response caching, bundle sizes, and the only non-blocking Playwright browser-install observation are in `.factory/verification.md`.
+
 ## What shipped
 
 - A Rust single-binary CLI with a small public library API and `clap` command surface.
